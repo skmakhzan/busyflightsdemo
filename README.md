@@ -2,9 +2,9 @@
 
 3 api
 ```
-/busyflights-api
-/toughjet-api-impl
-/crazyair-api-impl
+/busyflights-api      			http://localhost:8080/api/flights
+/toughjet-api-impl				http://localhost:8082/api/toughjet
+/crazyair-api-impl				http://localhost:8081/api/crazyair
 ```
 to run demo, under each api : 
 ```
