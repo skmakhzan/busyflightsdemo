@@ -1,0 +1,11 @@
+spring:
+  jackson.serialization.write-dates-as-timestamps: false
+
+logging:
+  level:
+    org.springframework: ERROR
+    com.travix: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file: travix.log
