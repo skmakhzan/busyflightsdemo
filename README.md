@@ -1,18 +1,25 @@
-** Solution
+** Solution**
 3 api
 ```
 /busyflights-api
 /toughjet-api-impl
 /crazyair-api-impl
 ```
-to run demo : mvn spring-boot:run  under each api
-to test : $ curl -H "Content-Type: application/json" -X POST -d '{"origin": "PAR","destination": "LON","departureDate": "2019-11-01","returnDate": "2019-11-25"}' http://localhost:8080/api/flights
+to run demo, under each api : 
+```
+mvn spring-boot:run
+```
 
 
-** to add supplier
+to test :
+```
+$ curl -H "Content-Type: application/json" -X POST -d '{"origin": "PAR","destination": "LON","departureDate": "2019-11-01","returnDate": "2019-11-25"}' http://localhost:8080/api/flights
+```
+
+** to add supplier**
 implement interface Supplier
 
-** could be done better
+** could be done better**
 - more test
 - common module for util classes
 - add dto
