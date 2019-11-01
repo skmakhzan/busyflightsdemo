@@ -1,4 +1,4 @@
-** Solution**
+**Solution**
 
 3 api
 ```
@@ -17,11 +17,11 @@ to test :
 $ curl -H "Content-Type: application/json" -X POST -d '{"origin": "PAR","destination": "LON","departureDate": "2019-11-01","returnDate": "2019-11-25"}' http://localhost:8080/api/flights
 ```
 
-** to add supplier
+**to add supplier
 
 implement interface Supplier
 
-** could be done better**
+**could be done better**
 
 - more test
 - common module for util classes
